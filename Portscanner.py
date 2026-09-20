@@ -51,7 +51,7 @@ for port in PORT_NAMES:
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     s.settimeout(0.5)
 
-    status = s.connect_ex(('185.185.50.58', port))
+    status = s.connect_ex(('127.0.0.1', port))
 
     if status == 0:
         print(f'{port} IS OPEN. SERVICE: {PORT_NAMES[port]}')
