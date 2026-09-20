@@ -1,1 +1,2 @@
-Put ur Ports in and js start the py
+Put ur IP in and js start the py
+(EDUCATIONAL PURPOSES)
